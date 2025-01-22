@@ -7,3 +7,7 @@ notebook
 tqdm
 opencv-contrib-python
 scikit-learn
+fastapi
+uvicorn
+python-multipart
+Pillow
