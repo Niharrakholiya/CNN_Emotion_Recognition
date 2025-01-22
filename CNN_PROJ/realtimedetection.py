@@ -1,10 +1,10 @@
 import cv2
-from keras.models import model_from_json
+from keras.models import model_from_json # type: ignore
 import numpy as np
 from tkinter import Tk, filedialog
 
 # Load the pre-trained model
-json_file = open(r"C:\Users\danis\OneDrive\Desktop\FACE-EXP-RECOG\CNN_PROJ\emotiondetector.json", "r")
+json_file = open("emotiondetector.json", "r")
 model_json = json_file.read()
 json_file.close()
 model = model_from_json(model_json)
