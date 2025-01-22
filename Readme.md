@@ -73,7 +73,7 @@ uvicorn api:app --reload
 
 ```bash
 cd emotion-detector-frontend
-npm r
+npm run dev
 ```
 
 ## Project Structure
